@@ -165,7 +165,7 @@ const createCurrentConditionsDivs = (weatherObj, unit) => {
   const minTemp = createElem(
     "div",
     "mintemp",
-    `High ${Math.round(Number(weatherObj.daily[0].temp.min))}`
+    `Low ${Math.round(Number(weatherObj.daily[0].temp.min))}`
   );
   const humidity = createElem(
     "div",
